@@ -1,7 +1,7 @@
 import Matter, { type Body } from 'matter-js';
 import { useEffect, useRef } from 'react';
 
-const BALL_SPEEED = 7;
+const BALL_SPEEED = 10;
 
 export const BlockCollapsing = () => {
   const sceneRef = useRef<HTMLDivElement>(null);
