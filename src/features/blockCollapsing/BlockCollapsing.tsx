@@ -1,9 +1,9 @@
 import Matter, { type Body } from 'matter-js';
 import { useEffect, useRef } from 'react';
 
-const BALL_SPEEED = 5;
+const BALL_SPEEED = 7;
 
-export const BlockBreaking = () => {
+export const BlockCollapsing = () => {
   const sceneRef = useRef<HTMLDivElement>(null);
 
   const engineRef = useRef(Matter.Engine.create());
