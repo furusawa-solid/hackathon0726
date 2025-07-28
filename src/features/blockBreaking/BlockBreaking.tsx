@@ -59,7 +59,8 @@ export const BlockBreaking = () => {
         // ブロックが何かに触れたら静止状態を解除する
         if (isBlock(bodyA)) {
           Body.setStatic(bodyA, false);
-        } else if (isBlock(bodyB)) {
+        }
+        if (isBlock(bodyB)) {
           Body.setStatic(bodyB, false);
         }
       }
